@@ -7,6 +7,8 @@ window.addEventListener("load", function() {
        contador(segundos,numero);
     });
     function contador(segundos, numero) {
-        setInterval(function(){document.write(numero++)}, segundos*1000);
+        setInterval(function(){
+        	document.write(numero++);
+        }, segundos*1000);
     }
 });
